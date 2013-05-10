@@ -8,11 +8,14 @@
     <script src="js/blogs.js"></script>
 </head>
 <body ng-controller="BlogsCtrl">
-<div>sjdlfajd</div>
+<div>{{'test'}}</div>
 <ul>
     <li ng-repeat="blog in blogs">
         {{blog.name}}
     </li>
+    <select ng-model="blog" ng-options="blog.name for blog in blogs">
+        <option value="">choose patient</option>
+    </select>
 </ul>
 </body>
 </html>
