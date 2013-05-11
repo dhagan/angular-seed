@@ -2,19 +2,37 @@
 
 /* Controllers */
 
-//angular.module('myApp.controllers', []).
-//  controller('MyCtrl1', [function() {
-//
-//  }])
-//  .controller('MyCtrl2', [function() {
-//
-//  }]);
+angular.module('myApp.controllers', []).
+  controller('MyCtrl1', [function() {
 
-angular
-    .module('myApp.controllers', ['xml'])
-    .config(function ($httpProvider) {
-        $httpProvider.responseInterceptors.push('xmlHttpInterceptor');
+  }])
+  .controller('MyCtrl2', [function() {
+
+  }]);
+
+function PatientsCtrl($scope, $http) {
+    $scope.patients = [];
+
+    $http.get('phones/list.xml').then(function (response) {
+        var patients = [],
+            i,
+            patient;
+
+        var x2js;
+        x2js = new X2JS();
+        var jsonObj = x2js.xml_str2json(response.data);
+        var patientResults = jsonObj.list.patientResult;
+        for (i = 0; i < patientResults.length; i++) {
+            patient = new Object();
+            patient.firstName = patientResults[i].firstName;
+            patient.lastName = patientResults[i].lastName;
+            patients.push(patient);
+        }
+
+        $scope.patients = patients;
     });
+
+}
 
 function PhoneListCtrl($scope, $http) {
     var xml = xmlFilter('<blogs><blog name="my first blog" id="1"/></blogs>');

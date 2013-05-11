@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" ng-app="patients">
 <head>
-    <title>Blogs</title>
+    <title>Patients</title>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
     <script src="js/angular-xml.js"></script>
@@ -11,9 +11,6 @@
 <body ng-controller="PatientsCtrl">
 <div>{{'PatientsCtrl'}}</div>
 <ul>
-    <li ng-repeat="patient in patients">
-        {{patient.name}}
-    </li>
     <select ng-model="patient" ng-options="patient.firstName for patient in patients">
         <option value="">choose patient</option>
     </select>
