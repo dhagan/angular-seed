@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
+    <script src="js/calculator.js"></script>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div ng-app="compute">
+<div ng-controller="CalculatorCtrl">
+    <input class="text" ng-model="data.value"></input>
+    <h3>{{data.value}}</h3>
+    <br>
+
+    <calculator label="1"></calculator>
+    <calculator label="2"></calculator>
+    <calculator label="3"></calculator>
+    <br>
+    <calculator label="4"></calculator>
+
+</div>
+</div>
+</body>
+</html>
