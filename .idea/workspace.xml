@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="16" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.14945056" vertical-offset="561" max-vertical-offset="1598">
+            <state line="41" column="16" selection-start="1627" selection-end="1627" vertical-scroll-proportion="-22.884615" vertical-offset="102" max-vertical-offset="1598">
               <folding>
                 <marker date="1392319059666" expanded="true" signature="703:1626" placeholder="..." />
                 <marker date="1392319059666" expanded="true" signature="723:1023" placeholder="..." />
@@ -47,10 +47,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="protractor.conf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/protractor.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.spec.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/e2e/project.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="57" selection-start="243" selection-end="243" vertical-scroll-proportion="0.10897436" vertical-offset="0" max-vertical-offset="936">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="project.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="54" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+            <state line="53" column="27" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -66,9 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/js/patient.js" />
-        <option value="$PROJECT_DIR$/app/js/blogs.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/js/proxy.xml.js" />
         <option value="$PROJECT_DIR$/app/calculator.html" />
         <option value="$PROJECT_DIR$/app/js/calculator.js" />
@@ -80,8 +95,11 @@
         <option value="$PROJECT_DIR$/app/js/couchdb.js" />
         <option value="$PROJECT_DIR$/app/js/patients.js" />
         <option value="$PROJECT_DIR$/app/patient.html" />
-        <option value="$PROJECT_DIR$/app/js/project.js" />
         <option value="$PROJECT_DIR$/app/project.html" />
+        <option value="$PROJECT_DIR$/app/js/project.js" />
+        <option value="$PROJECT_DIR$/test/e2e/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/test/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/test/e2e/project.spec.js" />
       </list>
     </option>
   </component>
@@ -133,6 +151,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="angular-seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,6 +259,7 @@
       <recent name="C:\_dhagan\angular\angular-seed\app\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_dhagan\angular\angular-seed\test" />
       <recent name="C:\_dhagan\angular\angular-seed\app\js" />
       <recent name="C:\_dhagan\angular\angular-seed\app\phones" />
     </key>
@@ -343,18 +394,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/blogs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="495" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="104" selection-start="1571" selection-end="1669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="4" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -431,14 +470,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="54" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+        <state line="53" column="27" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.14945056" vertical-offset="561" max-vertical-offset="1598">
+        <state line="41" column="16" selection-start="1627" selection-end="1627" vertical-scroll-proportion="-22.884615" vertical-offset="102" max-vertical-offset="1598">
           <folding>
             <marker date="1392319059666" expanded="true" signature="703:1626" placeholder="..." />
             <marker date="1392319059666" expanded="true" signature="723:1023" placeholder="..." />
@@ -455,6 +494,20 @@
             <marker date="1392319059666" expanded="true" signature="3671:3741" placeholder="..." />
             <marker date="1392319059666" expanded="true" signature="3783:3876" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/protractor.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/e2e/project.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="57" selection-start="243" selection-end="243" vertical-scroll-proportion="0.10897436" vertical-offset="0" max-vertical-offset="936">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -54,7 +54,7 @@ function EditCtrl($scope, $location, $routeParams, ProjectCouch) {
 angular.module('CouchDB', ['ngResource']).
     factory('ProjectCouch', function($resource) {
         var ProjectCouch = $resource(':protocol//:server/:db/:q/:r/:s/:t',
-            {protocol: 'http:', server: 'localhost:5984', db: 'projects'}, {update: {method:'PUT'}
+            {protocol: 'http:', server: 'localhost:5984', db: 'patients'}, {update: {method:'PUT'}
             }
         );
 
