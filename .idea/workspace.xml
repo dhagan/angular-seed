@@ -56,19 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.spec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="project.spec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/e2e/project.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="55" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="11" column="12" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2996795" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="85" selection-start="807" selection-end="807" vertical-scroll-proportion="0.40865386" vertical-offset="102" max-vertical-offset="1343">
+            <state line="21" column="85" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
         <option value="$PROJECT_DIR$/app/patient.html" />
         <option value="$PROJECT_DIR$/test/e2e/protractor.conf.js" />
         <option value="$PROJECT_DIR$/test/protractor.conf.js" />
-        <option value="$PROJECT_DIR$/test/e2e/project.spec.js" />
         <option value="/HTML Fragment (project.html:1771).html" />
         <option value="$PROJECT_DIR$/app/project.html" />
         <option value="$PROJECT_DIR$/app/js/project.js" />
+        <option value="$PROJECT_DIR$/test/e2e/project.spec.js" />
       </list>
     </option>
   </component>
@@ -391,7 +391,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/e2e/project.spec.js</url>
-          <line>17</line>
+          <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -473,6 +473,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="85" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="115" selection-start="3401" selection-end="3401" vertical-scroll-proportion="-7.9615383" vertical-offset="1034" max-vertical-offset="1632">
@@ -504,14 +511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/e2e/project.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="85" selection-start="807" selection-end="807" vertical-scroll-proportion="0.40865386" vertical-offset="102" max-vertical-offset="1343">
+        <state line="11" column="12" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2996795" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
