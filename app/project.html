@@ -48,9 +48,10 @@
     <script type="text/ng-template" id="detail.html">
         <form name="myForm">
             <div class="control-group" ng-class="{error: myForm.first_name.$invalid}">
-                <label>First Name</label>
+                <label>First Name:</label>
                 <input type="text" name="first_name" ng-model="project.first_name" value="Douglas" required>
                 <span ng-show="myForm.first_name.$error.required" class="help-inline">Required</span>
+
             </div>
             <div class="control-group" ng-class="{error: myForm.last_name.$invalid}">
                 <label>Last Name</label>
@@ -59,13 +60,14 @@
             </div>
             <div class="control-group" ng-class="{error: myForm.date_of_birth.$invalid}">
                 <label>Birthday</label>
-                <input type="text" name="date_of_birth" ng-model="project.date_of_birth" required>
+                <input type="date" name="date_of_birth" ng-model="project.date_of_birth" required>
                 <span ng-show="myForm.date_of_birth.$error.required" class="help-inline">Required</span>
             </div>
-            <div class="control-group" ng-class="{error: myForm.deployed.$invalid}">
+            <label>Status</label>
+            <div class="control-group form-inline" ng-class="{error: myForm.deployed.$invalid}">
+                <input type="checkbox" name="deployed" ng-model="project.deployed" required>
                 <label>Deployed</label>
-                <input type="text" name="deployed" ng-model="project.deployed" required>
-                <span ng-show="myForm.deployed.$error.required" class="help-inline">Required</span>
+
             </div>
             <div class="control-group" ng-class="{error: myForm.ssn.$invalid}">
                 <label>Social Security Number</label>
