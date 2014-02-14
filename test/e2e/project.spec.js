@@ -9,7 +9,7 @@ describe("protractor-patients", function () {
             var ptor;
 
                 ptor = protractor.getInstance();
-            ptor.sleep(6000);
+            ptor.sleep(4000);
         });
     });
     describe("new", function () {
@@ -18,6 +18,10 @@ describe("protractor-patients", function () {
             element(by.model('project.deployed')).click();
             var deployed = element(by.model('project.deployed'));
             expect(deployed.getText()).toContain('true');
+            var ptor;
+
+            ptor = protractor.getInstance();
+            ptor.sleep(4000);
         });
         /*
         it('deployed should change state', function() {
