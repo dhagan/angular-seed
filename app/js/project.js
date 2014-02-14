@@ -19,6 +19,8 @@ function ListCtrl($scope, ProjectCouch) {
 }
 
 function CreateCtrl($scope, $location, ProjectCouch) {
+    $scope.project = {last_name: 'Hagan', first_name: 'Douglas', date_of_birth: '1992-02-12', deployed: 'true', ssn: '123-45-6789'};
+    //$scope.project.last_name = 'Hagan';
     $scope.save = function() {
         ProjectCouch.save($scope.project, function(project) {
             $location.path('/edit/' + project.id);
